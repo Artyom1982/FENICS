@@ -24,7 +24,7 @@ plot(mesh)
 vtkfile = File('poisson/solution.pvd')
 vtkfile << u
 
-p1 = Point(0.5,0.3)
+p1 = Point(0.5,0.1)
 print(u(p1.x(),p1.y()))
 
 import numpy as np
